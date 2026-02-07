@@ -1,6 +1,6 @@
 # DevOps Pipeline Project
 
-$~ Project Overview
+$ ~ Project Overview
 
 This project focuses on DevOps fundamentals rather than application complexity.
 It showcases how an application can be version-controlled, containerized, and made ready for CI/CD pipelines.
