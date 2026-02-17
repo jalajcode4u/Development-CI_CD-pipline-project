@@ -1,12 +1,29 @@
 {
-  "name": "devops-pipeline-project",
+  "name": "development-ci-cd-pipeline-project",
   "version": "1.0.0",
+  "description": "A Node.js application containerized with Docker and deployed via GitHub Actions CI/CD pipeline. Built to demonstrate DevOps fundamentals including containerization, automated testing, and cloud deployment.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Tests placeholder\""
+    "dev": "nodemon app.js",
+    "test": "jest --coverage"
   },
+  "keywords": [
+    "devops",
+    "docker",
+    "github-actions",
+    "cicd",
+    "nodejs",
+    "aws",
+    "cloud"
+  ],
+  "author": "Jalaj Kumar <jalajkumar10112110@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
   }
 }
